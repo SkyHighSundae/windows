@@ -4,7 +4,7 @@ class Config {
     constructor() {
         this.conxTimeout = 600;
         this.ip = "104.219.234.138:6004";
-        this.name = 'YandereBot';
+        this.name = 'Nodejs Bot';
     }
 }
 var config = new Config();
@@ -78,7 +78,7 @@ function connectToServer() {
                     chat('y!test y!minecraft');
                 }
                 if (command == prefix + "kit") {
-                    if (!username == "yandere chan") {
+                    if (!username == "WindowsVM is the worst") {
                         send('Fuck off forkie.');
                     } else {
                         var kitt = 'off';
@@ -119,7 +119,7 @@ function connectToServer() {
                     chat('https://github.com/CollabVM-Unofficial/yanderebot/blob/master/README.md');
                 }
                 if (command == prefix + "test") {
-                    chat('Bot up and working!');
+                    chat('Welcome to WindowsVM');
                 }
                 if (command == prefix + "minecraft") {
                     chat('https://discord.gg/minecraft') // haha minecraft discord server advertisement epic
